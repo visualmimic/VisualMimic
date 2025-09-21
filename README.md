@@ -26,10 +26,10 @@ python sim2sim.py --task kick_ball # kick_box, push_box, lift_box
 
 #### Results
 
-<video src="asset/videos/sim2sim/kick_ball_sim2sim.mp4" controls width="480"></video>
-<video src="asset/videos/sim2sim/kick_box_sim2sim.mp4" controls width="480"></video>
-<video src="asset/videos/sim2sim/lift_box_sim2sim.mp4" controls width="480"></video>
-<video src="asset/videos/sim2sim/push_box_sim2sim.mp4" controls width="480"></video>
+![Kick Ball Demo](asset/videos/sim2sim/kick_ball_sim2sim.gif)
+![Kick Box Demo](asset/videos/sim2sim/kick_box_sim2sim.gif)
+![Lift Box Demo](asset/videos/sim2sim/lift_box_sim2sim.gif)
+![Push Box Demo](asset/videos/sim2sim/push_box_sim2sim.gif)
 
 ## 📜 Release Progress
 
