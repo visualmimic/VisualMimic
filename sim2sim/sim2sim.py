@@ -322,12 +322,12 @@ class RealTimePolicyController:
                     depth_visual_bgr = cv2.applyColorMap(depth_numpy, cv2.COLORMAP_JET)
                     depth_visual_rgb = cv2.cvtColor(depth_visual_bgr, cv2.COLOR_BGR2RGB)
                     main_h, main_w, _ = rgb_img.shape
-                    inset_w = main_w // 5
+                    inset_w = int(main_w * 0.3)
                     inset_h = int(inset_w * (depth_visual_rgb.shape[0] / depth_visual_rgb.shape[1]))
                     depth_inset = cv2.resize(depth_visual_rgb, (inset_w, inset_h), interpolation=cv2.INTER_AREA)
-                    rgb_img[0:inset_h, 0:inset_w] = depth_inset
+                    rgb_img[0:inset_h, -inset_w:] = depth_inset
                     text = f"Command: {self.command}"
-                    rgb_img = cv2.putText(rgb_img, text, (10, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
+                    rgb_img = cv2.putText(rgb_img, text, (10, 35), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
                     mp4_writer.append_data(rgb_img)
 
             # PD control

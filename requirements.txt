@@ -4,3 +4,4 @@ torchvision
 mujoco
 tqdm
 opencv-python
+imageio[ffmpeg]
