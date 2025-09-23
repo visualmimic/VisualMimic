@@ -34,7 +34,7 @@
 
 
 ## News
-- [2025/09/22] Sim2Sim pipeline and checkpoints released.
+- [2025/09/24] Sim2Sim pipeline and checkpoints released.
 
 ## Installation
 
