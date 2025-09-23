@@ -59,7 +59,7 @@ python sim2sim.py --task kick_ball # kick_box, push_box, lift_box
 ## Release Progress
 
 - [x] Sim2Sim pipeline
-- [x] Checkpoints for all tasks
+- [x] Checkpoints for real world tasks
 - [ ] Low-level tracker training code
 - [ ] Low-level tracker checkpoint
 - [ ] High-level policy training code
