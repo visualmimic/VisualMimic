@@ -1,5 +1,5 @@
 # VisualMimic
-[[project page]](https://visualmimic.github.io/) [[arXiv]](TBD)
+[[project page]](https://visualmimic.github.io/) [[arXiv]](https://arxiv.org/abs/2509.20322)
 
  **VisualMimic: Visual Humanoid Loco-Manipulation via Motion Tracking and Generation**, arXiv 2025.
  Shaofeng Yin*, Yanjie Ze*, Hong-Xing Yu, C. Karen Liu†, Jiajun Wu† (*Equal contribution, †Equal advising)
