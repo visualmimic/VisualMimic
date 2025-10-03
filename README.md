@@ -5,6 +5,8 @@
  Shaofeng Yin*, Yanjie Ze*, Hong-Xing Yu, C. Karen Liu†, Jiajun Wu† (*Equal contribution, †Equal advising)
 *Stanford University*
 
+**Code will be fully open-sourced after paper acceptance.**
+
 <table>
 <tr>
 <td align="center">
